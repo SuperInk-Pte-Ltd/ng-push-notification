@@ -9,14 +9,14 @@
     "ng",
     "angular"
   ],
-  "author": "Lyubimov Roman",
+  "author": "Lyubimov Roman, Forked by muhammadfandu",
   "license": "MIT",
   "repository": {
-    "url": "git@github.com:FriOne/ng-push-notification.git"
+    "url": "https://github.com/muhammadfandu/ng-push-notification-angular-18.git"
   },
   "peerDependencies": {
-    "@angular/common": "^13.1.0",
-    "@angular/core": "^13.1.0"
+    "@angular/common": ">=18",
+    "@angular/core": ">=18"
   },
   "dependencies": {
     "tslib": "^2.3.0"

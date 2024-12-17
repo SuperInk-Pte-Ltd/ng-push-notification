@@ -1,35 +1,35 @@
 {
-  "name": "ng-push-notification-proj",
-  "version": "0.0.0",
+  "name": "ng-push-notification-angular-18",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "server": "ng build ng-push-notification && ng build && npm run server-start",
-    "server-start": "http-server -p 8080 -c-1 dist/ng-push-notification-proj",
+    "server-start": "http-server -p 8080 -c-1 dist/ng-push-notification-angular-18",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~13.1.0",
-    "@angular/common": "~13.1.0",
-    "@angular/compiler": "~13.1.0",
-    "@angular/core": "~13.1.0",
-    "@angular/forms": "~13.1.0",
-    "@angular/platform-browser": "~13.1.0",
-    "@angular/platform-browser-dynamic": "~13.1.0",
-    "@angular/router": "~13.1.0",
-    "@angular/service-worker": "~13.1.0",
+    "@angular/animations": "~18.2.13",
+    "@angular/common": "~18.2.13",
+    "@angular/compiler": "~18.2.13",
+    "@angular/core": "~18.2.13",
+    "@angular/forms": "~18.2.13",
+    "@angular/platform-browser": "~18.2.13",
+    "@angular/platform-browser-dynamic": "~18.2.13",
+    "@angular/router": "~18.2.13",
+    "@angular/service-worker": "~18.2.13",
     "http-server": "^14.0.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.1.1",
-    "@angular/cli": "~13.1.1",
-    "@angular/compiler-cli": "~13.1.0",
+    "@angular-devkit/build-angular": "^18.2.12",
+    "@angular/cli": "~18.2.12",
+    "@angular/compiler-cli": "~18.2.12",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.10.0",
@@ -38,7 +38,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "ng-packagr": "^13.0.0",
-    "typescript": "~4.5.2"
+    "ng-packagr": "^18.2.1",
+    "typescript": "~5.4.5"
   }
 }
