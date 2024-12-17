@@ -1,6 +1,6 @@
 {
-  "name": "ng-push-notification",
-  "version": "2.0.0",
+  "name": "@muhammadfandu/ng-push-notification",
+  "version": "1.0.1",
   "description": "Simple service for push notifications",
   "keywords": [
     "push",
@@ -12,7 +12,7 @@
   "author": "Lyubimov Roman, Forked by muhammadfandu",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/muhammadfandu/ng-push-notification-angular-18.git"
+    "url": "git+https://github.com/muhammadfandu/ng-push-notification-angular-18.git"
   },
   "peerDependencies": {
     "@angular/common": ">=18",
