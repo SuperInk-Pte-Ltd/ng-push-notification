@@ -1,12 +1,12 @@
 {
-  "name": "ng-push-notification-angular-18",
+  "name": "ng-push-notification",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "server": "ng build ng-push-notification && ng build && npm run server-start",
-    "server-start": "http-server -p 8080 -c-1 dist/ng-push-notification-angular-18",
+    "server-start": "http-server -p 8080 -c-1 dist/ng-push-notification",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
